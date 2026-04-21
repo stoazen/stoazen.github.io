@@ -10,10 +10,10 @@ import styles from "./index.module.css";
 
 function StatsBar(): ReactNode {
   const stats = [
+    { value: "智慧之語", label: "哲學抽卡智慧" },
     { value: "感恩日記", label: "每日感謝練習" },
     { value: "正念冥想", label: "專注當下工具" },
     { value: "療癒音樂", label: "白噪音・頌缽音樂" },
-    { value: "智慧之語", label: "哲學抽卡智慧" },
     { value: "iOS & Android", label: "免費下載" },
   ];
   return (

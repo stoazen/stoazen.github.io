@@ -62,6 +62,14 @@ function ProductShowcase(): ReactNode {
   const features: ShowcaseItem[] = [
     {
       gradient:
+        "linear-gradient(160deg, #1a1208 0%, #241808 60%, #2e1e08 100%)",
+      placeholderIcon: "✨",
+      title: "智慧之語抽卡",
+      description:
+        "每日抽取一張哲學智慧卡，涵蓋馬可奧理略、愛比克泰德、阿德勒、榮格與禪宗等智慧之語。讓一句話成為當日的內省起點，在日常的細縫中播下深刻的思想種子。",
+    },
+    {
+      gradient:
         "linear-gradient(160deg, #1c1508 0%, #2a1e0a 60%, #341f08 100%)",
       placeholderIcon: "✏️",
       title: "感恩日記工具",
@@ -83,14 +91,6 @@ function ProductShowcase(): ReactNode {
       title: "白噪音・頌缽音樂播放器",
       description:
         "精心策展的白噪音與頌缽音樂庫，封閉外界喧囂，引導你進入深度專注或放鬆狀態。大自然雨聲、篝火柴燒到古老頌缽山水，每一道音景都是一次內心的回歸。",
-    },
-    {
-      gradient:
-        "linear-gradient(160deg, #1a1208 0%, #241808 60%, #2e1e08 100%)",
-      placeholderIcon: "✨",
-      title: "智慧之語抽卡",
-      description:
-        "每日抽取一張哲學智慧卡，涵蓋馬可奧理略、愛比克泰德、阿德勒、榮格與禪宗等智慧之語。讓一句話成為當日的內省起點，在日常的細縫中播下深刻的思想種子。",
     },
     {
       gradient:
