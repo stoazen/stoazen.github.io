@@ -1,0 +1,100 @@
+/* ── Hero Banner ── */
+.heroBanner {
+  padding: 8rem 2rem 7rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #0a0907;
+}
+
+/* Ensō-inspired concentric ripple texture — echoes the brushstroke circle logo */
+.heroBanner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(
+      circle at 50% 48%,
+      rgba(184, 154, 110, 0.055) 0px,
+      transparent 1px
+    ),
+    radial-gradient(
+      ellipse 80% 80% at 50% 48%,
+      transparent 38%,
+      rgba(184, 154, 110, 0.035) 39%,
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse 55% 55% at 50% 48%,
+      transparent 34%,
+      rgba(184, 154, 110, 0.04) 35%,
+      transparent 36%
+    ),
+    radial-gradient(
+      ellipse 32% 32% at 50% 48%,
+      transparent 29%,
+      rgba(184, 154, 110, 0.05) 30%,
+      transparent 31%
+    );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Warm amber center glow + ink edge vignette */
+.heroBanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      ellipse 55% 45% at 50% 44%,
+      rgba(184, 154, 110, 0.1) 0%,
+      transparent 68%
+    ),
+    radial-gradient(ellipse 95% 85% at 50% 56%, transparent 32%, #0a0907 80%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Container above pseudo-elements */
+.heroBanner :global(.container) {
+  position: relative;
+  z-index: 2;
+}
+
+/* Ink-to-parchment gradient title — warm white fades to antique stone */
+.heroBanner :global(.hero__title) {
+  background: linear-gradient(160deg, #ffffff 0%, #e8d8bc 55%, #b89a6e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: clamp(1.8rem, 5.5vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin-bottom: 1.2rem;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.heroBanner :global(.hero__subtitle) {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  color: #9a9080 !important;
+  margin: 0 auto 0.5rem;
+  max-width: 580px;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 5rem 1.5rem 4rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}

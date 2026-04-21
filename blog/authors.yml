@@ -1,0 +1,23 @@
+stoazen:
+  name: StoaZen
+  title: StoaZen Master
+  url: https://www.stoazen.com
+  image_url: https://github.com/stoazen.png
+  page: true
+    # customize the url of the author page at /blog/authors/<permalink>
+  socials:
+    instagram: stoazen_com
+    website: https://www.stoazen.com
+
+kdchang:
+  name: KD Chang
+  title: Founder of StoaZen
+  url: https://www.kdchang.com
+  image_url: https://github.com/kdchang.png
+  page: true
+    # customize the url of the author page at /blog/authors/<permalink>
+  socials:
+    x: kaidichang
+    github: kdchang
+    instagram: kdchang.lab
+    website: https://www.kdchang.com
