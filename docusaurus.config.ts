@@ -133,19 +133,7 @@ const config: Config = {
               label: "最新文章",
               to: "/blog",
             },
-            {
-              label: "關於我們",
-              to: "/about",
-            },
-            {
-              label: "隱私政策",
-              to: "/privacy",
-            },
-          ],
-        },
-        {
-          title: "哲學智慧",
-          items: [
+
             {
               label: "斯多葛哲學",
               href: "#",
@@ -157,6 +145,23 @@ const config: Config = {
             {
               label: "正念與禪修",
               href: "#",
+            },
+          ],
+        },
+        {
+          title: "斯多禪社群",
+          items: [
+            {
+              label: "Facebook 斯多禪交流社群",
+              href: "https://facebook.com/groups/stoazen",
+            },
+            {
+              label: "追蹤 Instagram",
+              href: "https://www.instagram.com/stoazen_com",
+            },
+            {
+              label: "追蹤 Facebook",
+              href: "https://www.facebook.com/stoazen",
             },
           ],
         },
@@ -177,13 +182,21 @@ const config: Config = {
           title: "聯絡我們",
           items: [
             {
+              label: "關於我們",
+              to: "/about",
+            },
+            {
+              label: "隱私政策",
+              to: "/privacy",
+            },
+            {
               label: "寫信給我們",
               to: "mailto:stoazen.com@gmail.com",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} StoaZen 斯多禪. Built with ❤️ by <a href="https://www.kdchang.com">KD Chang</a> in Taiwan.`,
+      copyright: `Copyright © ${new Date().getFullYear()} StoaZen 斯多禪. Built with ❤️ by <a target="_blank" href="https://www.kdchang.com">KD Chang</a> in Taiwan.`,
     },
     prism: {
       theme: prismThemes.github,
