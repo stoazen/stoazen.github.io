@@ -1,52 +1,64 @@
 import type { ReactNode } from "react";
-import clsx from "clsx";
 import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import styles from "./index.module.css";
 
-function StatsBar(): ReactNode {
-  const stats = [
-    { value: "智慧之語", label: "哲學抽卡智慧" },
-    { value: "感恩日記", label: "每日感謝練習" },
-    { value: "正念冥想", label: "專注當下工具" },
-    { value: "療癒音樂", label: "白噪音・頌缽音樂" },
-    { value: "iOS & Android", label: "免費下載" },
-  ];
+function HeroCard(): ReactNode {
   return (
-    <div className="ct-stats-bar">
-      {stats.map((s, i) => (
-        <div key={i} className="ct-stat-item">
-          <span className="ct-stat-value">{s.value}</span>
-          <span className="ct-stat-label">{s.label}</span>
+    <div className={styles.device} aria-hidden="true">
+      <div className={styles.deviceScreen}>
+        <p className={styles.deviceTopic}>焦慮不安</p>
+        <div className={styles.quoteCard}>
+          <span className={styles.quoteSchool}>斯多葛</span>
+          <p className={styles.quoteText}>
+            我們在想像中受的苦，往往比在現實中受的苦更多。
+          </p>
+          <p className={styles.quoteAuthor}>塞內卡</p>
+          <p className={styles.quoteSource}>致盧基里烏斯書信集 13</p>
         </div>
-      ))}
+        <p className={styles.deviceHint}>點卡片看解說</p>
+        <div className={styles.deviceTabs}>
+          <span className={styles.deviceTabActive}>抽卡</span>
+          <span>禪修</span>
+          <span>收藏</span>
+          <span>紀錄</span>
+        </div>
+      </div>
     </div>
   );
 }
 
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
+function HomepageHeader(): ReactNode {
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header className={styles.hero}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className="button button--success button--lg" to="#">
-            立即下載 App
-          </Link>
-          <Link
-            className="margin-left--sm button button--secondary button--lg"
-            to="/about"
-          >
-            了解更多
-          </Link>
+        <div className={styles.heroGrid}>
+          <div className={styles.heroText}>
+            <p className={styles.heroEyebrow}>禪語・斯多葛哲學・心理學</p>
+            <Heading as="h1" className={styles.heroTitle}>
+              人生難題，
+              <br />
+              抽一張錦囊
+            </Heading>
+            <p className={styles.heroLead}>
+              StoaZen 斯多禪收錄 180 則來自禪宗典籍、斯多葛哲學與現代心理學的金句。心裡有事時，選一個困擾的主題抽一張卡，讓一句話陪你換個角度看；想靜下來時，跟著呼吸禪修一分鐘。
+            </p>
+            <div className={styles.heroActions}>
+              <Link className={styles.btnPrimary} to="#download">
+                取得 App
+              </Link>
+              <Link className={styles.btnGhost} to="#how">
+                了解使用方式
+              </Link>
+            </div>
+            <p className={styles.heroNote}>iOS 與 Android 版即將上架，免費使用</p>
+          </div>
+          <div className={styles.heroVisual}>
+            <HeroCard />
+          </div>
         </div>
       </div>
     </header>
@@ -54,14 +66,12 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="透過哲學、心理學與禪修工具，幫助你專注當下、獲得自我掌控與心靈平靜，活好這一生。"
+      title="人生難題，抽一張錦囊"
+      description="StoaZen 斯多禪收錄 180 則禪語、斯多葛哲學與心理學金句。依困擾主題抽卡、靜默禪修、收藏與記錄，iOS 與 Android 即將上架。"
     >
       <HomepageHeader />
-      <StatsBar />
       <main>
         <HomepageFeatures />
       </main>

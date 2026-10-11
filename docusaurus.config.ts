@@ -6,8 +6,15 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "StoaZen 斯多禪",
-  tagline: "專注當下・自我掌控・心靈平靜",
+  tagline: "人生難題，抽一張錦囊",
   favicon: "/img/favicon.ico",
+
+  stylesheets: [
+    {
+      href: "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600&display=swap",
+      type: "text/css",
+    },
+  ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -113,11 +120,13 @@ const config: Config = {
         src: "img/logo.png",
       },
       items: [
-        { to: "/blog", label: "最新文章", position: "left" },
-        { to: "/about", label: "關於我們", position: "left" },
+        { to: "/#features", label: "功能", position: "left" },
+        { to: "/explore", label: "探索", position: "left" },
+        { to: "/blog", label: "文章", position: "left" },
+        { to: "/about", label: "關於", position: "left" },
         {
-          href: "#",
-          label: "立即下載",
+          to: "/#download",
+          label: "下載 App",
           position: "right",
           className: "navbar__download-cta",
         },
@@ -127,40 +136,47 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "探索",
+          title: "產品",
           items: [
             {
-              label: "最新文章",
+              label: "使用方式",
+              to: "/#how",
+            },
+            {
+              label: "抽卡主題",
+              to: "/#themes",
+            },
+            {
+              label: "功能",
+              to: "/#features",
+            },
+            {
+              label: "使用指南",
+              to: "/explore/guide",
+            },
+            {
+              label: "常見問題",
+              to: "/explore/faq",
+            },
+            {
+              label: "文章",
               to: "/blog",
-            },
-
-            {
-              label: "斯多葛哲學",
-              href: "#",
-            },
-            {
-              label: "阿德勒心理學",
-              href: "#",
-            },
-            {
-              label: "正念與禪修",
-              href: "#",
             },
           ],
         },
         {
-          title: "斯多禪社群",
+          title: "社群",
           items: [
             {
-              label: "Facebook 斯多禪交流社群",
+              label: "Facebook 社團",
               href: "https://facebook.com/groups/stoazen",
             },
             {
-              label: "追蹤 Instagram",
+              label: "Instagram",
               href: "https://www.instagram.com/stoazen_com",
             },
             {
-              label: "追蹤 Facebook",
+              label: "Facebook 粉絲專頁",
               href: "https://www.facebook.com/stoazen",
             },
           ],
@@ -169,20 +185,24 @@ const config: Config = {
           title: "下載 App",
           items: [
             {
-              label: "App Store (即將上線)",
-              href: "#",
+              label: "App Store（即將上架）",
+              to: "/#download",
             },
             {
-              label: "Google Play (即將上線)",
-              href: "#",
+              label: "Google Play（即將上架）",
+              to: "/#download",
+            },
+            {
+              label: "瀏覽器擴充功能（即將推出）",
+              to: "/#download",
             },
           ],
         },
         {
-          title: "聯絡我們",
+          title: "關於",
           items: [
             {
-              label: "關於我們",
+              label: "關於 StoaZen",
               to: "/about",
             },
             {
@@ -190,8 +210,8 @@ const config: Config = {
               to: "/privacy",
             },
             {
-              label: "寫信給我們",
-              to: "mailto:stoazen.com@gmail.com",
+              label: "聯絡信箱",
+              href: "mailto:stoazen.com@gmail.com",
             },
           ],
         },

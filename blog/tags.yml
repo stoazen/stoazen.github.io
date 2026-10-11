@@ -1,34 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+斯多葛哲學:
+  label: 斯多葛哲學
+  permalink: /stoicism
+  description: 斯多葛哲學相關文章
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+禪修:
+  label: 禪修
+  permalink: /zen
+  description: 禪與禪修相關文章
 
-旅行:
-  label: 旅行
-  permalink: /旅行
-  description: 旅行探索相關文章
+正念:
+  label: 正念
+  permalink: /mindfulness
+  description: 正念與覺察相關文章
 
-打卡:
-  label: 打卡
-  permalink: /打卡
-  description: 城市打卡挑戰
+心理健康:
+  label: 心理健康
+  permalink: /mental-health
+  description: 心理學與心理健康相關文章
 
-景點:
-  label: 景點
-  permalink: /景點
-  description: 台灣城市景點推薦
-
-城市探索:
-  label: 城市探索
-  permalink: /城市探索
-  description: 城市探索主題文章
-
-stoazen:
-  label: stoazen
+StoaZen:
+  label: StoaZen
   permalink: /stoazen
-  description: StoaZen 斯多禪
+  description: StoaZen 斯多禪產品與設計理念
