@@ -206,7 +206,7 @@ const config: Config = {
               to: "/about",
             },
             {
-              label: "隱私政策",
+              label: "隱私權政策",
               to: "/privacy",
             },
             {
