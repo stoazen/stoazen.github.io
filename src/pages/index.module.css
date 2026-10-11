@@ -7,9 +7,10 @@
 
 .heroGrid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  grid-template-columns: minmax(0, 34rem) 300px;
+  justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 5rem;
 }
 
 .heroEyebrow {
@@ -185,6 +186,7 @@
 
   .heroGrid {
     grid-template-columns: minmax(0, 1fr);
+    justify-content: stretch;
     gap: 3rem;
   }
 
