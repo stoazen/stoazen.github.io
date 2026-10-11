@@ -226,6 +226,31 @@
   color: var(--sz-gold);
 }
 
+/* ── Newsletter ── */
+.newsletter {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 480px);
+  align-items: center;
+  gap: 4rem;
+}
+
+.newsletter .sectionHeader {
+  margin-bottom: 0;
+}
+
+.newsletterEmbed {
+  overflow: hidden;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.newsletterEmbed iframe {
+  display: block;
+  width: 100%;
+  height: 320px;
+  border: 0;
+}
+
 /* ── Responsive ── */
 @media screen and (max-width: 996px) {
   .section,
@@ -243,7 +268,8 @@
 
   .steps,
   .sampleGrid,
-  .principleGrid {
+  .principleGrid,
+  .newsletter {
     grid-template-columns: minmax(0, 1fr);
     gap: 2rem;
   }

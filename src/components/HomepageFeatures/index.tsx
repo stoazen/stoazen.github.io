@@ -291,6 +291,33 @@ function Download(): ReactNode {
   );
 }
 
+function Newsletter(): ReactNode {
+  return (
+    <section className={styles.section}>
+      <div className="container">
+        <div className={styles.newsletter}>
+          <SectionHeader
+            id="newsletter"
+            eyebrow="電子報"
+            title="免費訂閱電子報"
+            lead="留下你的電子郵件，收到 StoaZen 的新文章，以及 App 上架與更新的消息。隨時可以取消訂閱。"
+          />
+          <div className={styles.newsletterEmbed}>
+            <iframe
+              src="https://stoazen.substack.com/embed"
+              title="訂閱 StoaZen 電子報"
+              width="480"
+              height="320"
+              loading="lazy"
+              scrolling="no"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function HomepageFeatures(): ReactNode {
   return (
     <>
@@ -300,6 +327,7 @@ export default function HomepageFeatures(): ReactNode {
       <Features />
       <Principles />
       <Download />
+      <Newsletter />
     </>
   );
 }

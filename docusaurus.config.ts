@@ -168,6 +168,10 @@ const config: Config = {
           title: "社群",
           items: [
             {
+              label: "電子報",
+              href: "https://stoazen.substack.com/",
+            },
+            {
               label: "Facebook 社團",
               href: "https://facebook.com/groups/stoazen",
             },
