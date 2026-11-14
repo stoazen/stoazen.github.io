@@ -22,3 +22,23 @@ StoaZen:
   label: StoaZen
   permalink: /stoazen
   description: StoaZen 斯多禪產品與設計理念
+
+馬可奧理略:
+  label: 馬可・奧理略
+  permalink: /marcus-aurelius
+  description: 羅馬皇帝馬可・奧理略與《沉思錄》相關文章
+
+愛比克泰德:
+  label: 愛比克泰德
+  permalink: /epictetus
+  description: 斯多葛哲學家愛比克泰德與《語錄》《手冊》相關文章
+
+塞內卡:
+  label: 塞內卡
+  permalink: /seneca
+  description: 斯多葛哲學家塞內卡的書信與對話錄相關文章
+
+斯多葛練習:
+  label: 斯多葛練習
+  permalink: /stoic-practice
+  description: 可以每天實踐的斯多葛練習
