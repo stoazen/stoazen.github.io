@@ -1,4 +1,5 @@
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
+import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
@@ -7,20 +8,41 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 
 function HeroCard(): ReactNode {
+  const [flipped, setFlipped] = useState(false);
   return (
-    <div className={styles.device} aria-hidden="true">
+    <div className={styles.device}>
       <div className={styles.deviceScreen}>
         <p className={styles.deviceTopic}>焦慮不安</p>
-        <div className={styles.quoteCard}>
-          <span className={styles.quoteSchool}>斯多葛</span>
-          <p className={styles.quoteText}>
-            我們在想像中受的苦，往往比在現實中受的苦更多。
-          </p>
-          <p className={styles.quoteAuthor}>塞內卡</p>
-          <p className={styles.quoteSource}>致盧基里烏斯書信集 13</p>
-        </div>
-        <p className={styles.deviceHint}>點卡片看解說</p>
-        <div className={styles.deviceTabs}>
+        <button
+          type="button"
+          className={clsx(styles.flipCard, flipped && styles.flipped)}
+          onClick={() => setFlipped((f) => !f)}
+          aria-pressed={flipped}
+          aria-label={flipped ? "翻回金句" : "翻到背面看白話解說"}
+        >
+          <span className={styles.flipInner}>
+            <span className={clsx(styles.quoteCard, styles.cardFront)} aria-hidden={flipped}>
+              <span className={styles.quoteSchool}>斯多葛</span>
+              <span className={styles.quoteText}>
+                我們在想像中受的苦，往往比在現實中受的苦更多。
+              </span>
+              <span className={styles.quoteAuthor}>塞內卡</span>
+              <span className={styles.quoteSource}>致盧基里烏斯書信集 13</span>
+            </span>
+            <span className={clsx(styles.quoteCard, styles.cardBack)} aria-hidden={!flipped}>
+              <span className={styles.quoteSchool}>白話解說</span>
+              <span className={styles.noteText}>
+                腦中預演最壞結果、越想越焦慮時，問自己：現在，此刻，實際發生了什麼？通常只有想像在燃燒。
+              </span>
+              <span className={styles.noteRule} />
+              <span className={styles.quoteSource}>塞內卡《致盧基里烏斯書信集》13</span>
+            </span>
+          </span>
+        </button>
+        <p className={styles.deviceHint} aria-live="polite">
+          {flipped ? "再點一下，翻回金句" : "點卡片看解說"}
+        </p>
+        <div className={styles.deviceTabs} aria-hidden="true">
           <span className={styles.deviceTabActive}>抽卡</span>
           <span>禪修</span>
           <span>收藏</span>

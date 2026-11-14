@@ -122,6 +122,77 @@
   color: var(--sz-gold);
 }
 
+/* The hero card flips like the app's: quote on the front, plain-language note on the back. */
+.flipCard {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  perspective: 1200px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.flipCard:focus-visible {
+  outline: 2px solid var(--sz-gold);
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+.flipInner {
+  display: grid;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.flipCard:hover .flipInner {
+  transform: translateY(-3px);
+}
+
+.flipped .flipInner,
+.flipped:hover .flipInner {
+  transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  box-shadow: 0 14px 30px rgba(5, 15, 12, 0.35);
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+}
+
+.noteText {
+  display: block;
+  margin: 0 0 1.25rem;
+  font-size: 0.9375rem;
+  line-height: 1.85;
+}
+
+.noteRule {
+  display: block;
+  width: 1.5rem;
+  height: 2px;
+  margin: auto 0 0.75rem;
+  background: var(--sz-gold);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flipInner {
+    transition: none;
+  }
+}
+
 .quoteCard {
   width: 100%;
   padding: 1.75rem 1.25rem 1.5rem;
@@ -139,6 +210,7 @@
 }
 
 .quoteText {
+  display: block;
   margin: 0 0 1.5rem;
   font-family: var(--sz-font-serif);
   font-size: 1.0625rem;
@@ -147,12 +219,14 @@
 }
 
 .quoteAuthor {
+  display: block;
   margin: 0;
   font-size: 0.8125rem;
   font-weight: 600;
 }
 
 .quoteSource {
+  display: block;
   margin: 0.15rem 0 0;
   font-size: 0.6875rem;
   color: #6b6658;
