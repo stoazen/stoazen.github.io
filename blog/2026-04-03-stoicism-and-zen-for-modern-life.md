@@ -90,4 +90,4 @@ StoaZen 斯多禪，名字來自 **Stoic（斯多葛）** 與 **Zen（禪）** �
 
 它們是可以每天拿來用的東西。
 
-StoaZen App 即將在 App Store 與 Google Play 上架，[了解更多](/#download)。
+StoaZen App 已在 App Store 上架，Android 版即將在 Google Play 推出，[了解更多](/#download)。

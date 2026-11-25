@@ -98,4 +98,4 @@ description: 塞內卡說「沒有什麼事應該讓我們感到意外」，同�
 
 **關於引文**：本文斯多葛引文由 StoaZen 依公有領域英譯本自譯：塞內卡書信依 Richard M. Gummere 譯本（Loeb，1917–1925）；愛比克泰德依 George Long 譯本。禪語依 CBETA《大正藏》本《無門關》。
 
-StoaZen App 即將上架，焦慮的時候可以抽一張「焦慮不安」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。
+StoaZen App 已在 App Store 上架（Android 版即將推出），焦慮的時候可以抽一張「焦慮不安」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。

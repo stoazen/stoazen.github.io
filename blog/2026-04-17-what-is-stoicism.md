@@ -111,4 +111,4 @@ description: 一個商人在船難中失去全部貨物，走進雅典的書店�
 
 **關於引文**：本文斯多葛引文由 StoaZen 依公有領域英譯本自譯：愛比克泰德《手冊》依 George Long 譯本；馬可・奧理略《沉思錄》依 George Long 譯本；芝諾的話依 R. D. Hicks 譯《名哲言行錄》（1925）。禪語依 CBETA《大正藏》本。
 
-想在卡住的時候抽一張錦囊？StoaZen App 即將上架，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。
+想在卡住的時候抽一張錦囊？StoaZen App 已在 App Store 上架（Android 版即將推出），[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。

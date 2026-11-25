@@ -119,4 +119,4 @@ description: 斯多葛哲學不是用來讀的，是用來每天練的。這篇�
 
 **關於引文**：本文斯多葛引文由 StoaZen 依公有領域英譯本自譯：《沉思錄》依 George Long 譯本；《論憤怒》依 Aubrey Stewart 譯本（1900）；書信依 Richard M. Gummere 譯本（Loeb，1917–1925）。禪語依 CBETA《大正藏》本《無門關》。
 
-StoaZen App 的靜默禪修只記錄、不計分，漏了一天也不會斷掉什麼。App 即將上架，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。
+StoaZen App 的靜默禪修只記錄、不計分，漏了一天也不會斷掉什麼。App 已在 App Store 上架，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。

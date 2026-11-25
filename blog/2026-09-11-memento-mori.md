@@ -101,4 +101,4 @@ description: 「不要活得好像你還有一萬年。」斯多葛學派每天�
 
 **關於引文**：本文斯多葛引文由 StoaZen 依公有領域英譯本自譯：馬可・奧理略、愛比克泰德依 George Long 譯本；塞內卡依 Aubrey Stewart 譯本（1900）。禪語依 CBETA《大正藏》本《碧巖錄》。
 
-StoaZen App 即將上架，可以抽一張「放下與無常」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。
+StoaZen App 已在 App Store 上架（Android 版即將推出），可以抽一張「放下與無常」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。

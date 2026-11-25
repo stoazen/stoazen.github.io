@@ -112,4 +112,4 @@ description: 兩千年前，塞內卡寫了一整部書談憤怒，結論出奇�
 
 **關於引文**：本文斯多葛引文由 StoaZen 依公有領域英譯本自譯：塞內卡《論憤怒》依 Aubrey Stewart 譯本（1900）；愛比克泰德、馬可・奧理略依 George Long 譯本。禪語依 CBETA《大正藏》本《證道歌》。
 
-StoaZen App 即將上架，生氣的時候也可以抽一張「憤怒與衝突」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。
+StoaZen App 已在 App Store 上架（Android 版即將推出），生氣的時候也可以抽一張「憤怒與衝突」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。

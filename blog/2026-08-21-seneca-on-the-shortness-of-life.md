@@ -98,4 +98,4 @@ description: 「我們拿到的不是短暫的人生，是我們把它變短了�
 
 **關於引文**：本文斯多葛引文由 StoaZen 依公有領域英譯本自譯：《論生命之短暫》依 Aubrey Stewart 譯本（1900）；書信依 Richard M. Gummere 譯本（Loeb，1917–1925）。禪語依 CBETA《大正藏》本《無門關》，「喫」改為臺灣通行的「吃」。
 
-StoaZen App 即將上架，拖延的時候可以抽一張「拖延與行動」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。
+StoaZen App 已在 App Store 上架（Android 版即將推出），拖延的時候可以抽一張「拖延與行動」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。

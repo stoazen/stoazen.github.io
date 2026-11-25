@@ -12,7 +12,7 @@ App 免費下載與使用，所有金句內容都不需付費解鎖。
 
 ## 什麼時候可以下載？
 
-iOS 與 Android 版即將在 App Store 與 Google Play 上架；瀏覽器擴充功能也在準備中。上架後會在[官網首頁](/#download)公告。
+iOS 版已在 [App Store](https://apps.apple.com/tw/app/stoazen-%E6%96%AF%E5%A4%9A%E7%A6%AA/id6806759300) 上架，Android 版即將在 Google Play 上架；瀏覽器擴充功能也在準備中。最新消息會在[官網首頁](/#download)公告。
 
 ## 需要註冊帳號嗎？
 

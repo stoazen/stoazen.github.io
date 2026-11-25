@@ -104,4 +104,4 @@ description: 馬可・奧理略覺得奇怪：人愛自己勝過愛別人，卻�
 
 **關於引文**：本文斯多葛引文由 StoaZen 依 George Long 的馬可・奧理略與愛比克泰德英譯本（公有領域）自譯。禪語依 CBETA《大正藏》本《無門關》。
 
-StoaZen App 即將上架，自我懷疑的時候可以抽一張「自我懷疑」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。
+StoaZen App 已在 App Store 上架（Android 版即將推出），自我懷疑的時候可以抽一張「自我懷疑」的錦囊，[了解更多](/#download)，或[免費訂閱電子報](https://stoazen.substack.com/)。
