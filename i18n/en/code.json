@@ -1,0 +1,688 @@
+{
+  "homepage.hero.card.topic": {
+    "message": "Anxiety"
+  },
+  "homepage.hero.card.flipBack": {
+    "message": "Flip back to the quote"
+  },
+  "homepage.hero.card.flip": {
+    "message": "Flip to read the plain-language reading"
+  },
+  "homepage.hero.card.school": {
+    "message": "Stoic"
+  },
+  "homepage.hero.card.quote": {
+    "message": "We suffer more often in imagination than in reality."
+  },
+  "homepage.hero.card.author": {
+    "message": "Seneca"
+  },
+  "homepage.hero.card.source": {
+    "message": "Letters to Lucilius 13"
+  },
+  "homepage.hero.card.noteLabel": {
+    "message": "Reading"
+  },
+  "homepage.hero.card.note": {
+    "message": "When your mind keeps rehearsing the worst and the worry keeps growing, ask: right now, in this moment, what is actually happening? Usually it's only the imagination that is on fire."
+  },
+  "homepage.hero.card.noteSource": {
+    "message": "Seneca, Letters to Lucilius 13"
+  },
+  "homepage.hero.card.hintBack": {
+    "message": "Tap again to flip back"
+  },
+  "homepage.hero.card.hint": {
+    "message": "Tap the card for a reading"
+  },
+  "homepage.hero.tabs.draw": {
+    "message": "Draw"
+  },
+  "homepage.hero.tabs.sit": {
+    "message": "Meditation"
+  },
+  "homepage.hero.tabs.saved": {
+    "message": "Saved"
+  },
+  "homepage.hero.tabs.progress": {
+    "message": "Progress"
+  },
+  "homepage.hero.eyebrow": {
+    "message": "Zen · Stoic philosophy · Psychology"
+  },
+  "homepage.hero.title": {
+    "message": "Life's knots?{br}Draw a card."
+  },
+  "homepage.hero.lead": {
+    "message": "StoaZen gathers 180 short passages from Zen texts, Stoic philosophy and modern psychology. When something weighs on you, pick what you're facing and draw a card, and let one line help you see it from another angle. When you want to settle, sit for a minute with your breath."
+  },
+  "homepage.hero.cta": {
+    "message": "Download on the App Store"
+  },
+  "homepage.hero.howLink": {
+    "message": "How it works"
+  },
+  "homepage.hero.note": {
+    "message": "Free · Out now on iOS, Android coming soon"
+  },
+  "homepage.meta.title": {
+    "message": "Stoic & Zen wisdom. Find calm."
+  },
+  "homepage.meta.description": {
+    "message": "StoaZen gathers 180 lines of Zen, Stoic and psychological wisdom. Draw a card for what you're facing, sit in quiet meditation, save and track your practice. Out now on the App Store."
+  },
+  "homepage.how.step1.title": {
+    "message": "Name what's troubling you"
+  },
+  "homepage.how.step1.body": {
+    "message": "Pick the one of eight life themes closest to how you feel right now. Nothing in particular? Choose Whatever Comes."
+  },
+  "homepage.how.step2.title": {
+    "message": "Draw a card"
+  },
+  "homepage.how.step2.body": {
+    "message": "Draw one line from Zen, Stoic philosophy or psychology for that theme. Every card names its author and source."
+  },
+  "homepage.how.step3.title": {
+    "message": "Flip and read"
+  },
+  "homepage.how.step3.body": {
+    "message": "Tap the card for the plain-language reading on the back, and bring an old line to bear on where you are today."
+  },
+  "homepage.how.eyebrow": {
+    "message": "How it works"
+  },
+  "homepage.how.title": {
+    "message": "Three steps to a new angle"
+  },
+  "homepage.themes.anxiety.name": {
+    "message": "Anxiety"
+  },
+  "homepage.themes.anxiety.desc": {
+    "message": "Restless, worrying too much about what's ahead"
+  },
+  "homepage.themes.anger.name": {
+    "message": "Anger & Conflict"
+  },
+  "homepage.themes.anger.desc": {
+    "message": "Provoked, at odds with someone"
+  },
+  "homepage.themes.procrastination.name": {
+    "message": "Action & Inertia"
+  },
+  "homepage.themes.procrastination.desc": {
+    "message": "You know what to do but can't start"
+  },
+  "homepage.themes.loss.name": {
+    "message": "Loss & Setback"
+  },
+  "homepage.themes.loss.desc": {
+    "message": "Failure, rejection, losing something"
+  },
+  "homepage.themes.decision.name": {
+    "message": "Choices & Doubt"
+  },
+  "homepage.themes.decision.desc": {
+    "message": "Not sure which way to go"
+  },
+  "homepage.themes.relationship.name": {
+    "message": "Relationships"
+  },
+  "homepage.themes.relationship.desc": {
+    "message": "Let-down expectations, boundaries, comparison"
+  },
+  "homepage.themes.selfdoubt.name": {
+    "message": "Self-Doubt"
+  },
+  "homepage.themes.selfdoubt.desc": {
+    "message": "Feeling you're not good enough"
+  },
+  "homepage.themes.impermanence.name": {
+    "message": "Letting Go"
+  },
+  "homepage.themes.impermanence.desc": {
+    "message": "Holding on to what can't be changed"
+  },
+  "homepage.themes.serendipity.name": {
+    "message": "Whatever Comes"
+  },
+  "homepage.themes.serendipity.desc": {
+    "message": "Nothing particular — just see what arrives"
+  },
+  "homepage.themes.eyebrow": {
+    "message": "Themes"
+  },
+  "homepage.themes.title": {
+    "message": "Start from what's troubling you"
+  },
+  "homepage.themes.lead": {
+    "message": "One line can speak to many situations. Every theme holds at least 15 cards, so there's always one to draw."
+  },
+  "homepage.samples.zen.school": {
+    "message": "Zen"
+  },
+  "homepage.samples.zen.text": {
+    "message": "The ordinary mind is the Way."
+  },
+  "homepage.samples.zen.author": {
+    "message": "Nanquan Puyuan"
+  },
+  "homepage.samples.zen.source": {
+    "message": "The Gateless Gate, Case 19"
+  },
+  "homepage.samples.stoic.school": {
+    "message": "Stoic"
+  },
+  "homepage.samples.stoic.text": {
+    "message": "Men are disturbed not by the things which happen, but by the opinions about the things."
+  },
+  "homepage.samples.stoic.author": {
+    "message": "Epictetus"
+  },
+  "homepage.samples.stoic.source": {
+    "message": "Enchiridion 5"
+  },
+  "homepage.samples.psychology.school": {
+    "message": "Psychology"
+  },
+  "homepage.samples.psychology.text": {
+    "message": "The curious paradox is that when I accept myself just as I am, then I can change."
+  },
+  "homepage.samples.psychology.author": {
+    "message": "Carl Rogers"
+  },
+  "homepage.samples.psychology.source": {
+    "message": "On Becoming a Person"
+  },
+  "homepage.schools.eyebrow": {
+    "message": "Content"
+  },
+  "homepage.schools.title": {
+    "message": "180 lines, three perspectives"
+  },
+  "homepage.schools.lead": {
+    "message": "60 each from Zen, Stoic philosophy and modern psychology, drawn from public-domain classics and short quotable passages. Every card comes in English and Chinese, with author, source and a plain-language reading."
+  },
+  "homepage.features.draw.title": {
+    "message": "Themed draws"
+  },
+  "homepage.features.draw.body": {
+    "message": "Draw by theme with no daily limit, and no content locked behind levels. Draw a card you've seen before and it's marked Again."
+  },
+  "homepage.features.sit.title": {
+    "message": "Silent meditation"
+  },
+  "homepage.features.sit.body": {
+    "message": "Three practices — Breath, Count and Just Sitting — at the length you choose. No voice, no music, just an ink circle rising and falling with your breath."
+  },
+  "homepage.features.saved.title": {
+    "message": "Saved"
+  },
+  "homepage.features.saved.body": {
+    "message": "Save the lines that land, then filter by theme or school, or search quotes and authors."
+  },
+  "homepage.features.progress.title": {
+    "message": "Progress"
+  },
+  "homepage.features.progress.body": {
+    "message": "A calendar marks the cards you drew and the times you sat each day, and shows which theme you drew for most this month."
+  },
+  "homepage.features.cardStyles.title": {
+    "message": "Levels & card styles"
+  },
+  "homepage.features.cardStyles.body": {
+    "message": "Drawing, reading and saving earn XP. Level up to unlock eight card styles, from Rice Paper and Ink Wash to Bamboo Slip and Gold Leaf."
+  },
+  "homepage.features.reminder.title": {
+    "message": "Daily reminder"
+  },
+  "homepage.features.reminder.body": {
+    "message": "Pick a time and a theme, and get one line a day as a notification. Tap it to open the full card."
+  },
+  "homepage.features.share.title": {
+    "message": "Share cards"
+  },
+  "homepage.features.share.body": {
+    "message": "Turn a card you love into an image and share it with friends or save it to Photos."
+  },
+  "homepage.features.bilingual.title": {
+    "message": "English & Chinese"
+  },
+  "homepage.features.bilingual.body": {
+    "message": "The app and every quote are available in English and Traditional Chinese. Switch any time."
+  },
+  "homepage.features.eyebrow": {
+    "message": "Features"
+  },
+  "homepage.features.title": {
+    "message": "Beyond the draw"
+  },
+  "homepage.principles.noGate.title": {
+    "message": "No content behind gates"
+  },
+  "homepage.principles.noGate.body": {
+    "message": "Levels and XP only unlock looks. They never hide a card. When you need one, it's always there."
+  },
+  "homepage.principles.noScore.title": {
+    "message": "Meditation is tracked, not scored"
+  },
+  "homepage.principles.noScore.body": {
+    "message": "Sitting earns no XP and has no streak. Settling down shouldn't come with the pressure of breaking a chain."
+  },
+  "homepage.principles.localData.title": {
+    "message": "Your data stays on your phone"
+  },
+  "homepage.principles.localData.body": {
+    "message": "No account needed. Saved cards, progress and settings live only on your device, and after the first download it works offline."
+  },
+  "homepage.principles.eyebrow": {
+    "message": "Principles"
+  },
+  "homepage.principles.title": {
+    "message": "What we chose not to build"
+  },
+  "homepage.download.app.body": {
+    "message": "Draw, meditate, save and track — the full experience. Available on iOS, with Android coming soon."
+  },
+  "homepage.download.app.status": {
+    "message": "Out now on iOS · Android coming soon"
+  },
+  "homepage.download.app.appStore": {
+    "message": "Download on the App Store"
+  },
+  "homepage.download.browser.name": {
+    "message": "Browser extension"
+  },
+  "homepage.download.browser.body": {
+    "message": "Meet one line of wisdom each time you open your browser."
+  },
+  "homepage.download.browser.status": {
+    "message": "Coming soon"
+  },
+  "homepage.download.eyebrow": {
+    "message": "Download"
+  },
+  "homepage.download.title": {
+    "message": "On your phone and in your browser"
+  },
+  "homepage.newsletter.eyebrow": {
+    "message": "Newsletter"
+  },
+  "homepage.newsletter.title": {
+    "message": "Subscribe for free"
+  },
+  "homepage.newsletter.lead": {
+    "message": "Leave your email to get new StoaZen articles plus app release and update news. Unsubscribe any time."
+  },
+  "homepage.newsletter.iframeTitle": {
+    "message": "Subscribe to the StoaZen newsletter"
+  },
+  "navbar.localeDropdown.ariaLabel": {
+    "message": "Choose language"
+  },
+  "footer.localeDropdown.ariaLabel": {
+    "message": "Choose language"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View all tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read more",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See all results outside \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results within \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Search results for \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search the documentation",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Everywhere"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 document found|{count} documents found",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No documents were found",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View all authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  }
+}

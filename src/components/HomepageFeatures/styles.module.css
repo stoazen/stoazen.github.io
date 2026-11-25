@@ -226,6 +226,49 @@
   color: var(--sz-gold);
 }
 
+.storeLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.storeBtn,
+.storeBtnGhost {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 1.25rem;
+  border-radius: 6px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.storeBtn {
+  background: var(--sz-gold);
+  color: var(--sz-brand);
+}
+
+.storeBtn:hover {
+  background: var(--sz-gold-light);
+  color: var(--sz-brand);
+  text-decoration: none;
+}
+
+.storeBtnGhost {
+  border: 1px solid var(--sz-line-strong);
+  color: var(--sz-cream);
+}
+
+.storeBtnGhost:hover {
+  border-color: var(--sz-cream);
+  color: var(--sz-cream);
+  text-decoration: none;
+}
+
 /* ── Newsletter ── */
 .newsletter {
   display: grid;

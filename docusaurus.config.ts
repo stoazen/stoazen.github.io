@@ -4,9 +4,23 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// 網站標題與標語不在翻譯檔的範圍內，依建置中的語系挑選。
+// Docusaurus 建置每個語系時會設定 DOCUSAURUS_CURRENT_LOCALE。
+const SITE_META: Record<string, { title: string; tagline: string }> = {
+  "zh-TW": { title: "StoaZen 斯多禪", tagline: "人生難題，抽一張錦囊" },
+  en: { title: "StoaZen", tagline: "Stoic & Zen wisdom. Find calm." },
+};
+const currentLocale = process.env.DOCUSAURUS_CURRENT_LOCALE ?? "zh-TW";
+const siteMeta = SITE_META[currentLocale] ?? SITE_META["zh-TW"];
+// 頁尾的 App Store 連結：中文連台灣商店，英文連美國商店（同 src/data/stores.ts）。
+const APP_STORE =
+  currentLocale === "en"
+    ? "https://apps.apple.com/us/app/stoazen-%E6%96%AF%E5%A4%9A%E7%A6%AA/id6806759300"
+    : "https://apps.apple.com/tw/app/stoazen-%E6%96%AF%E5%A4%9A%E7%A6%AA/id6806759300";
+
 const config: Config = {
-  title: "StoaZen 斯多禪",
-  tagline: "人生難題，抽一張錦囊",
+  title: siteMeta.title,
+  tagline: siteMeta.tagline,
   favicon: "/img/favicon.ico",
 
   stylesheets: [
@@ -35,12 +49,15 @@ const config: Config = {
 
   onBrokenLinks: "throw",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // 預設語系 zh-TW 走根路徑 /，英文在 /en/ 底下。
+  // 翻譯檔在 i18n/<locale>/，新增字串後用 `npm run write-translations -- --locale en` 產生。
   i18n: {
-    defaultLocale: "zh-Hant",
-    locales: ["zh-Hant"],
+    defaultLocale: "zh-TW",
+    locales: ["zh-TW", "en"],
+    localeConfigs: {
+      "zh-TW": { label: "繁體中文", htmlLang: "zh-TW" },
+      en: { label: "English", htmlLang: "en" },
+    },
   },
 
   presets: [
@@ -116,7 +133,7 @@ const config: Config = {
     navbar: {
       title: "StoaZen",
       logo: {
-        alt: "StoaZen 斯多禪",
+        alt: siteMeta.title,
         src: "img/logo.png",
       },
       items: [
@@ -124,6 +141,7 @@ const config: Config = {
         { to: "/explore", label: "探索", position: "left" },
         { to: "/blog", label: "文章", position: "left" },
         { to: "/about", label: "關於", position: "left" },
+        { type: "localeDropdown", position: "right" },
         {
           to: "/#download",
           label: "下載 App",
@@ -189,8 +207,8 @@ const config: Config = {
           title: "下載 App",
           items: [
             {
-              label: "App Store（即將上架）",
-              to: "/#download",
+              label: "App Store",
+              href: APP_STORE,
             },
             {
               label: "Google Play（即將上架）",
@@ -219,8 +237,14 @@ const config: Config = {
             },
           ],
         },
+        {
+          // 畫成語言下拉選單，見 src/theme/Footer/LinkItem。
+          // label 與 `to` 只是設定格式要求的佔位，不會顯示。
+          title: "語言",
+          items: [{ label: "語言", to: "/", localeDropdown: true }],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} StoaZen 斯多禪. Built with ❤️ by <a target="_blank" href="https://www.kdchang.com">KD Chang</a> in Taiwan.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ${siteMeta.title}. Built with ❤️ by <a target="_blank" href="https://www.kdchang.com">KD Chang</a> in Taiwan.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -108,6 +108,13 @@ const paths: Record<string, ReactNode> = {
       <path d="M9 21V9" />
     </>
   ),
+  globe: (
+    <>
+      <circle cx="12" cy="12" r="10" />
+      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+      <path d="M2 12h20" />
+    </>
+  ),
   languages: (
     <>
       <path d="m5 8 6 6" />

@@ -24,7 +24,7 @@ StoaZen 的核心是一個「錦囊」。心裡有事的時候，選一個最貼
 
 ## 產品
 
-**StoaZen App（iOS / Android，即將上架）**
+**StoaZen App**：iOS 版已上架（[App Store 下載](https://apps.apple.com/tw/app/stoazen-%E6%96%AF%E5%A4%9A%E7%A6%AA/id6806759300)），Android 版即將上架
 
 - 主題抽卡：焦慮不安、憤怒與衝突、拖延與行動、失落與挫敗、抉擇與迷惘、人際關係、自我懷疑、放下與無常，以及不設主題的「隨緣」
 - 靜默禪修：呼吸、數息、只管打坐，可選擇時長

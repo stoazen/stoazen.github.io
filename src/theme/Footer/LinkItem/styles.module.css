@@ -1,0 +1,72 @@
+/* footer 是深色底：按鈕用淡色細框融進 footer，展開的選單用略亮的深綠底。 */
+.switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  background: transparent;
+  color: var(--sz-text-muted);
+  border: 1px solid var(--sz-line-strong);
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.875rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.toggle:hover,
+.toggle[aria-expanded="true"] {
+  color: var(--sz-cream);
+  border-color: var(--sz-cream);
+}
+
+.caret {
+  border-style: solid;
+  border-width: 0.3em 0.3em 0;
+  border-color: currentColor transparent;
+}
+
+.menu {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 0;
+  z-index: 10;
+  min-width: 150px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--sz-bg-alt);
+  border: 1px solid var(--sz-line-strong);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  color: var(--sz-text-muted);
+  font-size: 0.875rem;
+}
+
+.option:hover {
+  background: var(--sz-line);
+  color: var(--sz-cream);
+  text-decoration: none;
+}
+
+.optionActive {
+  color: var(--sz-gold);
+  font-weight: 700;
+}

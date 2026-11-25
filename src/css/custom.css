@@ -186,3 +186,35 @@ body {
   font-size: clamp(1.5rem, 3.5vw, 2rem) !important;
   line-height: 1.35;
 }
+
+/* ── 語言選單 ──
+   右上角只留地球圖示（見 src/theme/NavbarItem/LocaleDropdownNavbarItem）。
+   文字是裸文字節點，只能把字級設成 0；箭頭（::after）跟圖示的尺寸是
+   em 或固定值，各自補回來。 */
+.navbar__link.navbar__locale {
+  font-size: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar__link.navbar__locale svg {
+  margin-right: 0;
+}
+
+/* 外層 .navbar__item 是 inline-block，字級 0 的連結會落在基線上、比旁邊的
+   連結高一截；改成 flex 才會跟「下載 App」垂直置中。箭頭原本用
+   top + translateY 對齊文字，沒有文字之後要拿掉。 */
+.navbar__item.dropdown:has(> .navbar__locale) {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__link.navbar__locale svg {
+  display: block;
+}
+
+.navbar__link.navbar__locale::after {
+  font-size: 1rem;
+  top: 0;
+  transform: none;
+}
